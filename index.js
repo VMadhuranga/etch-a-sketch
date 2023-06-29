@@ -23,7 +23,7 @@ function createGrid(numberOfSquare) {
         let divSketch = document.createElement("div");
         divSketch.classList.add("sketch");
 
-        for (let j = 0; j < n; j++) {
+        for (let j = 0; j < numberOfSquare; j++) {
             // create divs inside div sketch
             let divEtch = document.createElement("div");
             divEtch.classList.add("etch")

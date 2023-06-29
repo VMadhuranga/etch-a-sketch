@@ -1,1 +1,1 @@
-# etch-a-sketch
+This is The Odin Project's Etch a Sketch project assignment

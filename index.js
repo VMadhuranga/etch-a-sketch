@@ -8,7 +8,10 @@ let selectGridSize = document.createElement("button");
 selectGridSize.innerText = "Select Square Size";
 body.appendChild(selectGridSize);
 
-let gridSize = 0;
+// default grid size
+let gridSize = 16;
+createGrid(gridSize);
+
 selectGridSize.addEventListener("click", userGridSize);
 
 function createGrid(numberOfSquare) {
@@ -38,10 +41,11 @@ function createGrid(numberOfSquare) {
 
 function userGridSize() {
     gridSize = Number(prompt("Select your square size between 2 and 64"));
-
+    
     if (gridSize >= 2 && gridSize <= 64) {
+        document.querySelector(".container").remove();
         createGrid(gridSize);
     } else {
-        alert("Please select between 2 and 64");
+        alert("Please select square size between 2 and 64");
     }
 }

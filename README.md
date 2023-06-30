@@ -8,7 +8,6 @@ square size and draw inside of sketch pad when hovering
 TODO:
 
 - Instead of hovering to draw inside sketch add click to draw
-- Add clear feature
-- Fix create new sketch below the current sketch
+- Add clear sketch feature
 - Rather than a simple color change from black to white, 
   each interaction should randomize the square’s RGB value entirely

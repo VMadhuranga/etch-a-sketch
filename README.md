@@ -5,6 +5,8 @@ What' this program do:
 This program is browser version of Etch a Sketch. User can select
 square size and draw inside of sketch pad when hovering 
 
+Live preview: https://vmadhuranga.github.io/etch-a-sketch/
+
 TODO:
 
 - Instead of hovering to draw inside sketch add click to draw

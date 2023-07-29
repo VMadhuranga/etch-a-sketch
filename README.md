@@ -1,9 +1,9 @@
-This is The Odin Project's Etch a Sketch project assignment
+# Etch a Sketch
 
-What' this program do:
+This is TOP curriculum's Etch a Sketch project assignment
 
-This program is browser version of Etch a Sketch. User can select
-square size and draw inside of sketch pad when hovering 
+This project intends to practice my knowledge of DOM manipulation
+in javascript 
 
 Live preview: https://vmadhuranga.github.io/etch-a-sketch/
 
@@ -11,5 +11,4 @@ TODO:
 
 - Instead of hovering to draw inside sketch add click to draw
 - Add clear sketch feature
-- Rather than a simple color change from black to white, 
-  each interaction should randomize the square’s RGB value entirely
+- Add feature to choose color 
